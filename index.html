@@ -11,19 +11,51 @@
         <!-- Angular Source-->
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
 
-        <!-- Custom Stylesheet -->
-        <link rel = "stylesheet" type = "text/css" href = "main.css">
+        <!-- Custom Stylesheet and Google Font-->
+        <link href="main.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+        <script src = "app.js"></script>
 
         <title>Productive.ly</title>
     </head>
 
     <body>
-
-        <nav class = "navbar navbar-default navbar-fixed-top">
-            <div class = "container-fluid">
-                <h1 id = "productively">Productive.ly</h1>
+        <nav class = "navbar navbar-inverse navbar-static-top">
+            <div class = "container">
+                <div class = "navbar-header">
+                    <a class = "navbar-brand" href = "#">Productive.ly</a>
+                </div>
             </div>
         </nav>
+
+        <div class = "jumbotron">
+            <div class = "container">
+                <h1>Ready. Set. Go.</h1>
+                <p>Breaking down tasks into pockets of focus time with apt breaks to build up productivity one step at a time.</p> <br>
+                <a href = "#" class="btn btn-primary btn-lg" role = "button">Get Started</a>
+            </div>
+        </div>
+
+        <div class = "row" style = "margin : 30px; text-align: center">
+            <div class = "col-md-4">
+                <span class="glyphicon glyphicon-cloud glyphicon-large" aria-hidden="true"></span>
+                <h3>Cloud Compatible</h3>
+                <p>Access your saved tasks and deadlines across several devices. </p>
+            </div>
+
+            <div class = "col-md-4">
+                <span class="glyphicon glyphicon-envelope glyphicon-large" aria-hidden="true"></span>
+                <h3>Set Alerts</h3>
+                <p>Recieve email alerts before your deadlines pass. Never miss a deadline ever again.</p>
+            </div>
+
+            <div class = "col-md-4">
+                <span class="glyphicon glyphicon-floppy-disk glyphicon-large" aria-hidden="true"></span>
+                <h3>Monitor Progress</h3>
+                <p>Watch your productivity grow week after week with productivity checkpoints. </p>
+            </div>
+        </div>
 
     </body>
 </html>

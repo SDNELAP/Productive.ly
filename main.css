@@ -1,0 +1,53 @@
+.navbar{
+    margin-bottom: 0;
+}
+
+.navbar a{
+    font-size: 24px;
+}
+
+body{
+    background: #3E4649;
+    color: #f7f7f7;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2 {
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    color: #cdcdcd;
+}
+
+.jumbotron{
+    background: #BF3F3F;
+    color: white;
+    text-align: center;
+}
+
+.jumbotron p{
+    color: white;
+    font-size: 26px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: transparent;
+    margin-bottom: 5px;
+}
+.btn-primary:hover {
+    color: lightgray;
+}
+
+.navbar-inverse {
+    background: #3E4649;
+    border: 0;
+}
+
+.glyphicon-large{
+    font-size: 100px;
+
+}
