@@ -1,16 +1,18 @@
 /**
  * Created by Nelapatla on 8/27/17.
  */
-var taskList = [];
+var tasks = [];
 
-function addNewTask(newTask){
-    console.log("hi");
-    taskList.push(newTask);
-    var taskListElement = document.getElementById("task_list");
-    var newTaskElement = document.createElement("li");
+function addNewTask(newTaskText){
+    console.log("Entered Function");
+    tasks.push(newTaskText);
 
-    newTaskElement.appendChild(document.createTextNode(newTask));
-    taskListElement.appendChild(newTaskElement);
+    var task_list = document.getElementById('task_list');
+    var new_element = document.createElement("li");
+
+    new_element.innerHTML = newTaskText;
+    task_list.appendChild(new_element);
+
+    var input_field = document.getElementById("input_field");
+    input_field.value = input_field.defaultValue;
 }
-
-
